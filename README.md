@@ -18,8 +18,9 @@ Before run it, make sure you have all the needed python packages. In particular:
 - scipy
 
 Example:
-
+```
 python pySpeechRev.py clean_examples/ rev_examples/ list.txt
+```
 
 Tested on:
 Python 2.7
