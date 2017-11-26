@@ -2,7 +2,9 @@
 This python code performs an efficient speech reverberation starting from a dataset of close-talking speech signals and a collection of acoustic impulse responses. 
 
 The reverberated signal y[n] is computed in the following way:
+
 y[n]=x[n] * h[n]
+
 where x[n] is the clean signal and * is the convolutional operator.
 
 The script takes in input the following arguments:
