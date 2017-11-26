@@ -25,3 +25,4 @@ python pySpeechRev.py clean_examples/ rev_examples/ list.txt
 
 Tested on:
 Python 2.7
+Ubuntu
