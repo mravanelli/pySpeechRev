@@ -12,8 +12,8 @@ The script takes in input the following arguments:
 
 Before run it, make sure you have all the needed python packages. In particular:
 - pysoundfile: pip install pysoundfile
--numpy
--scipy
+- numpy
+- scipy
 
 Example:
 python pySpeechRev.py clean_examples/ rev_examples/ list.txt
