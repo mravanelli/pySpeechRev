@@ -1,0 +1,3 @@
+clean_examples/ex1.wav IR_examples/IR1.mat
+clean_examples/ex2.wav IR_examples/IR2.mat
+clean_examples/ex3.wav IR_examples/IR3.mat
