@@ -24,8 +24,7 @@ python pySpeechRev.py clean_examples/ rev_examples/ list.txt
 ```
 
 Tested on:
-Python 2.7
-Ubuntu
+Python 2.7, Ubuntu
 
 This code has been used in the following papers:
 
