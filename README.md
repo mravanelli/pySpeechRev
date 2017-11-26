@@ -14,7 +14,7 @@ The script takes in input the following arguments:
 -  list.txt : it is a text file where each row should contain: original_wav_file IR_file.
 
 Before run it, make sure you have all the needed python packages. In particular:
-- pysoundfile: pip install pysoundfile
+- pysoundfile: ``pip install pysoundfile``
 - numpy
 - scipy
 
