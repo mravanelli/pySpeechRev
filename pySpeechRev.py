@@ -2,7 +2,8 @@
 # Mirco Ravanelli - Fondazione Bruno Kessler
 # Nov 2017
 
-# Description
+# Example:
+# python pySpeechRev.py clean_examples/ rev_examples/ list.txt
 
 import numpy as np
 from scipy import signal
