@@ -1,5 +1,3 @@
-# python test.py /media/mirco/Elements/DIRHA_clean/48kHz/ph_rich/ /home/mirco/python_conv/prova2/ /home/mirco/python_conv/list.txt
-
 # pySpeechRev
 # Mirco Ravanelli - Fondazione Bruno Kessler
 # Nov 2017
