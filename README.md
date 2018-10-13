@@ -26,7 +26,7 @@ python pySpeechRev.py clean_examples/ rev_examples/ list.txt
 Tested on:
 Python 2.7, Ubuntu
 
-This code has been used in the following papers:
+This code has been used in the following papers (please cite them if you use this code):
 
 [1] M. Ravanelli, P. Svaizer, M. Omologo, "Realistic Multi-Microphone Data Simulation for Distant Speech Recognition",  in Proceedings of Interspeech 2016. https://arxiv.org/abs/1711.09470
 
