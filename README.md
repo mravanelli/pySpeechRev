@@ -35,7 +35,7 @@ The current version of TIMIT has been contaminated with some high-quality impuls
 Tested on:
 Python 2.7, Ubuntu
 
-This code has been used in the following papers:
+This code has been used in the following papers (please cite them if you use this code):
 
 
 
