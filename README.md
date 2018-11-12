@@ -25,10 +25,13 @@ python pySpeechRev.py clean_examples/ rev_examples/ list.txt
 
 # Reverberated TIMIT
 To create a reverberated version of TIMIT do the following steps:
-1- Make sure you have the TIMIT dataset. If not, it can be downloaded from the LDC website (https://catalog.ldc.upenn.edu/LDC93S1).
-2- Change lst_TIMIT.txt according to the paths of your TIMIT Dataset
-3- Run:
+- Make sure you have the TIMIT dataset. If not, it can be downloaded from the LDC website (https://catalog.ldc.upenn.edu/LDC93S1).
+- Change lst_TIMIT.txt according to the paths of your TIMIT Dataset
+- Run:
+
+```
 python pySpeechRev.py $path_TIMIT  $path_TIMIT_rev lst_TIMIT.txt
+```
 
 The current version of TIMIT has been contaminated with some high-quality impulse responses of the DIRHA-English Dataset [3]. 
 
