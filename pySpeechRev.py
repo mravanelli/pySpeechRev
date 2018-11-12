@@ -51,7 +51,7 @@ for i in range(len(list_sig)):
  signal_rev=signal.fftconvolve(signal_clean, IR, mode='full')
 
  # Normalization
- signal_rev=signal_rev/np.abs(np.max(signal_rev))
+ signal_rev=signal_rev/np.max(np.abs(signal_rev))
  
  # IR delay compensation
  signal_rev=shift(signal_rev, -p_max)
