@@ -23,6 +23,8 @@ Example:
 python pySpeechRev.py clean_examples/ rev_examples/ list.txt
 ```
 
+Note that to have meaningful and realistic results, both the impulse responses and the clean speech signal must be sampled at the **same sampling rate** (e.g., 16 kHz - 16 kHz). 
+
 # Reverberated TIMIT
 To create a reverberated version of TIMIT do the following steps:
 - Make sure you have the TIMIT dataset. If not, it can be downloaded from the LDC website (https://catalog.ldc.upenn.edu/LDC93S1).
