@@ -39,7 +39,7 @@ for i in range(len(list_sig)):
  signal_clean=signal_clean.astype(np.float64)
 
  # Signal normalization
- signal_clean=signal_clean/np.abs(np.max(signal_clean))
+ signal_clean=signal_clean/np.max(np.abs(signal_clean))
  
  # Open Impulse Response (IR)
  IR=load_IR(list_ir[i])
