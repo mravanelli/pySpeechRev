@@ -39,12 +39,11 @@ def load_IR(IR_file):
 
 
 def ReadList(list_file):
-    f = open(list_file, "r")
-    lines = f.readlines()
+    with open(list_file, "r") as f:
+        lines = f.readlines()
     list_sig = []
     list_ir = []
     for x in lines:
         list_sig.append(x.split(" ")[0])
         list_ir.append(x.split(" ")[1].rstrip())
-    f.close()
     return [list_sig, list_ir]
